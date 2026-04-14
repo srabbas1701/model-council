@@ -1,0 +1,8 @@
+.env
+node_modules/
+dist/
+output/
+logs/
+
+# PM skills (internal tooling, not for public repo)
+.claude/
