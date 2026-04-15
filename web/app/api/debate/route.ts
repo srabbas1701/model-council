@@ -8,7 +8,7 @@ export const runtime = 'nodejs';
 export const maxDuration = 300;
 
 function loadConfig(): AppConfig {
-  const configPath = path.resolve(process.cwd(), '..', 'config.json');
+  const configPath = path.resolve(process.cwd(), 'config.json');
   return JSON.parse(fs.readFileSync(configPath, 'utf-8')) as AppConfig;
 }
 
