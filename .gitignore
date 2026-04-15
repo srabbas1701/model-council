@@ -1,8 +1,11 @@
 .env
+.env.local
 node_modules/
 dist/
 output/
 logs/
+.next/
+.next-env.d.ts
 
 # PM skills (internal tooling, not for public repo)
 .claude/
